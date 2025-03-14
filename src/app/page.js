@@ -8,7 +8,6 @@ import { FeatureCard } from "@/components/FeatureCard"
 import { TestimonialCard } from "@/components/TestimonialCard"
 
 export default function LandingPage() {
-  // Datos para las características
   const features = [
     {
       icon: QrCode,
@@ -40,7 +39,6 @@ export default function LandingPage() {
     },
   ]
 
-  // Datos para los testimonios
   const testimonials = [
     {
       name: "María Rodríguez",
@@ -191,4 +189,3 @@ export default function LandingPage() {
     </div>
   )
 }
-
